@@ -1,0 +1,25 @@
+{
+    "name": "Ciao",
+    "provides": "Ciao.h",
+    "description": "Enables communication between microcontroller and MIPS cpu. Natively support network communications, terminal (linux) and file access.",
+    "version": "0.1.1",
+    "maintainer": "Arduino <swdev@arduino.org>",
+    "category": "Communications",
+    "subcategory": "Networking",
+    "family": [
+        "avr",
+        "arm-samd"
+    ],
+    "core": [
+        "arduino",
+        "arduino-samd"
+    ],
+    "install": {
+        "examples": "/",
+        "keywords.txt": "/",
+        "library.properties": "/",
+        "src": "/"
+    },
+    "license": "LICENSE",
+    "readme": "README.md"
+}
